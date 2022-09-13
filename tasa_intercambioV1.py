@@ -14,6 +14,9 @@ for candidata in lista_candidatas:
         lista_definitiva.append(candidata["asset_id"])
 
 
+print(len(lista_definitiva))
+
+
 cripto = input("Introduzca una cripto conocida: ").upper()
 while cripto != "":
     if cripto in lista_definitiva:
